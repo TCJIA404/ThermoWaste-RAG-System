@@ -1,0 +1,4 @@
+# Install in the separate Python 3.11 thermowaste-agent environment
+langgraph
+langchain-openai
+python-dotenv

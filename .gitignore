@@ -1,0 +1,22 @@
+# Credentials, machine-specific config
+.env
+.env.*
+!.env.example
+!.env.agent.example
+
+# Copyrighted local research documents and generated data
+data/papers/
+outputs/
+archive_local/
+*.zip
+
+# Model cache, local FAISS indexes, Python caches
+models/
+*.faiss
+*.index
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.idea/
+.vscode/

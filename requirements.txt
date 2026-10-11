@@ -1,0 +1,11 @@
+# FastAPI / core RAG environment (keep the existing, working Python 3.9 env)
+pymupdf
+sentence-transformers
+faiss-cpu
+numpy
+langchain-text-splitters
+openai
+python-dotenv
+rank-bm25
+fastapi
+uvicorn

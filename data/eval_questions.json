@@ -1,0 +1,217 @@
+[
+  {
+    "id": "Q01",
+    "query": "How does gasification temperature affect hydrogen production?",
+    "relevant": [
+      {
+        "source": "paper07.pdf",
+        "page": 7
+      },
+      {
+        "source": "paper08.pdf",
+        "page": 7
+      },
+      {
+        "source": "paper09.pdf",
+        "page": 8
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "Documents discuss H2 formation, selectivity or volume fraction. Do not treat total syngas yield as a direct measurement of H2 yield. Removed paper09 p9 from this query."
+  },
+  {
+    "id": "Q02",
+    "query": "Which operating parameters affect hydrogen concentration during gasification?",
+    "relevant": [
+      {
+        "source": "paper07.pdf",
+        "page": 7
+      },
+      {
+        "source": "paper07.pdf",
+        "page": 10
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "Source discusses steam/fuel, ER and temperature-related operating conditions; H2 volume fraction should not be confused with H2 yield."
+  },
+  {
+    "id": "Q03",
+    "query": "How do steam-to-fuel ratio and equivalence ratio affect hydrogen concentration?",
+    "relevant": [
+      {
+        "source": "paper07.pdf",
+        "page": 7
+      },
+      {
+        "source": "paper07.pdf",
+        "page": 10
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "The reported effect of steam/fuel ratio and ER is conditioned on the modeled experimental ranges."
+  },
+  {
+    "id": "Q04",
+    "query": "Which operating parameters influence H2, CO, CO2 and CH4 composition during gasification?",
+    "relevant": [
+      {
+        "source": "paper07.pdf",
+        "page": 7
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "Figure 5 addresses the composition of four syngas components under temperature, ER and steam/fuel changes."
+  },
+  {
+    "id": "Q05",
+    "query": "What do SHAP values indicate about the relative importance of steam-to-fuel ratio and equivalence ratio for H2 concentration?",
+    "relevant": [
+      {
+        "source": "paper07.pdf",
+        "page": 10
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "SHAP mean absolute values (12.6, 4.6) describe importance within the fitted model; they are not causal effect sizes."
+  },
+  {
+    "id": "Q06",
+    "query": "How does operating temperature affect total syngas yield in municipal solid waste gasification?",
+    "relevant": [
+      {
+        "source": "paper09.pdf",
+        "page": 8
+      },
+      {
+        "source": "paper09.pdf",
+        "page": 9
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "Both pages describe total syngas yield in MSW gasification; not H2 yield in isolation."
+  },
+  {
+    "id": "Q07",
+    "query": "How does raising gasification temperature affect H2, CO, CO2, and CH4 formation?",
+    "relevant": [
+      {
+        "source": "paper09.pdf",
+        "page": 8
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "Page discusses temperature and product composition trends; do not conflate observed associations with isolated causal effects."
+  },
+  {
+    "id": "Q08",
+    "query": "Which temperature and equivalence-ratio ranges were associated with higher syngas yields in a municipal solid waste gasification study?",
+    "relevant": [
+      {
+        "source": "paper09.pdf",
+        "page": 9
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "The study-specific 730-800 °C and ER 0.3-0.4 ranges apply to high total syngas yields, not a universal H2 optimum."
+  },
+  {
+    "id": "Q09",
+    "query": "Which features did SHAP identify as most influential for syngas production in MSW gasification?",
+    "relevant": [
+      {
+        "source": "paper09.pdf",
+        "page": 13
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "The two top features for total syngas yield are equivalence ratio and feedstock H content (SHAP 6.69, 6.55)."
+  },
+  {
+    "id": "Q10",
+    "query": "How does gasification temperature influence hydrogen and carbon monoxide selectivity?",
+    "relevant": [
+      {
+        "source": "paper08.pdf",
+        "page": 7
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "Discussion is interpretive feature-importance commentary, not direct experimental measurement of selectivity."
+  },
+  {
+    "id": "Q11",
+    "query": "What did machine-learning feature importance reveal about biomass concentration and temperature in supercritical water gasification for hydrogen production?",
+    "relevant": [
+      {
+        "source": "paper03.pdf",
+        "page": 10
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "The Zhao et al. (2021) result is cited within paper03, not obtained as the central new experiment of paper03."
+  },
+  {
+    "id": "Q12",
+    "query": "Why does machine-learning feature importance not establish a causal relationship in gasification studies?",
+    "relevant": [
+      {
+        "source": "paper03.pdf",
+        "page": 11
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "Feature importance identifies model usage/association, not experimental causality."
+  },
+  {
+    "id": "Q13",
+    "query": "What limitations of LIME are discussed when interpreting machine-learning models?",
+    "relevant": [
+      {
+        "source": "paper03.pdf",
+        "page": 4
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "LIME limitations cited include sensitivity to smoothing kernel width and instability across runs."
+  },
+  {
+    "id": "Q14",
+    "query": "What interpretability advantages does SHAP offer over Gini and permutation feature importance?",
+    "relevant": [
+      {
+        "source": "paper03.pdf",
+        "page": 4
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "SHAP can indicate not just relative importance but also relationships with model outputs."
+  },
+  {
+    "id": "Q15",
+    "query": "Which cellulose, hemicellulose and lignin mixtures with plastic were examined in biomass–plastic co-pyrolysis?",
+    "relevant": [
+      {
+        "source": "paper01.pdf",
+        "page": 3
+      }
+    ],
+    "label_status": "source_page_evidence_verified",
+    "annotation_scope": "identified_supporting_pages_not_exhaustive",
+    "review_note": "This is biomass-plastic co-pyrolysis and not gasification; sample C contains mixed biomass components with plastic."
+  }
+]
