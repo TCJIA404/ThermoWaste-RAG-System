@@ -1,4 +1,5 @@
 # ThermoWaste-RAG
+[English](README.md) | [简体中文](README_CN.md)
 
 **Evidence-aware literature retrieval and question answering for waste thermochemical conversion**
 
